@@ -18,12 +18,25 @@ class MainUIViewController: UIViewController {
 
     private(set) var filpCount = 0 {
         didSet {
-            filpCountLabel.text = "Filps:\(filpCount)"
+            updateFilpCountLabel()
         }
     }
 
+    private func updateFilpCountLabel() {
+        let attributes: [NSAttributedString.Key: Any] = [
+            .strokeWidth: 5.0,
+            .strokeColor: UIColor.init(cgColor: #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1))
+        ]
+        let attributeStr = NSAttributedString(string: "Filps:\(filpCount)", attributes: attributes)
+        filpCountLabel.attributedText = attributeStr
+    }
 
-    @IBOutlet private weak var filpCountLabel: UILabel!
+
+    @IBOutlet private weak var filpCountLabel: UILabel!{
+        didSet {
+            updateFilpCountLabel()
+        }
+    }
 
     @IBOutlet private var cardButtons: [UIButton]!
 
