@@ -18,6 +18,7 @@ class Concentration {
             let card = Card()
             cards += [card, card]
         }
+        //洗牌
 
     }
 

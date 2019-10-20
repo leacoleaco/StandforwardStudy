@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6214C3DBFF752549093BD6AC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6214C2D76EE0F5EEF9BB67CA /* Card.swift */; };
+		6214C662A0254663CFB913CF /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6214CE7E4125576C2FC95363 /* Concentration.swift */; };
 		6AD80B8B235A0EF7009D9986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD80B8A235A0EF7009D9986 /* AppDelegate.swift */; };
 		6AD80B91235A0EF8009D9986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD80B90235A0EF8009D9986 /* Assets.xcassets */; };
 		6AD80B94235A0EF8009D9986 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD80B93235A0EF8009D9986 /* Preview Assets.xcassets */; };
 		6AD80B97235A0EF8009D9986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD80B95235A0EF8009D9986 /* LaunchScreen.storyboard */; };
 		6AD80B9F235A1041009D9986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD80B9E235A1041009D9986 /* Main.storyboard */; };
 		6AD80BA3235A1758009D9986 /* MainUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD80BA2235A1758009D9986 /* MainUIViewController.swift */; };
-		6AD80BA5235B3FE6009D9986 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD80BA4235B3FE6009D9986 /* Concentration.swift */; };
-		6AD80BA7235B40ED009D9986 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD80BA6235B40ED009D9986 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6214C2D76EE0F5EEF9BB67CA /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6214CE7E4125576C2FC95363 /* Concentration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		6AD80B87235A0EF7009D9986 /* StanforwardStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanforwardStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD80B8A235A0EF7009D9986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AD80B90235A0EF8009D9986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,8 +28,6 @@
 		6AD80B98235A0EF8009D9986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AD80B9E235A1041009D9986 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6AD80BA2235A1758009D9986 /* MainUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIViewController.swift; sourceTree = "<group>"; };
-		6AD80BA4235B3FE6009D9986 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
-		6AD80BA6235B40ED009D9986 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +44,6 @@
 		6AD80B7E235A0EF7009D9986 = {
 			isa = PBXGroup;
 			children = (
-				6AD80BA4235B3FE6009D9986 /* Concentration.swift */,
-				6AD80BA6235B40ED009D9986 /* Card.swift */,
 				6AD80B89235A0EF7009D9986 /* StanforwardStudy */,
 				6AD80B88235A0EF7009D9986 /* Products */,
 			);
@@ -69,6 +67,8 @@
 				6AD80B9E235A1041009D9986 /* Main.storyboard */,
 				6AD80B98235A0EF8009D9986 /* Info.plist */,
 				6AD80B92235A0EF8009D9986 /* Preview Content */,
+				6214CE7E4125576C2FC95363 /* Concentration.swift */,
+				6214C2D76EE0F5EEF9BB67CA /* Card.swift */,
 			);
 			path = StanforwardStudy;
 			sourceTree = "<group>";
@@ -155,8 +155,8 @@
 			files = (
 				6AD80B8B235A0EF7009D9986 /* AppDelegate.swift in Sources */,
 				6AD80BA3235A1758009D9986 /* MainUIViewController.swift in Sources */,
-				6AD80BA5235B3FE6009D9986 /* Concentration.swift in Sources */,
-				6AD80BA7235B40ED009D9986 /* Card.swift in Sources */,
+				6214C662A0254663CFB913CF /* Concentration.swift in Sources */,
+				6214C3DBFF752549093BD6AC /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
